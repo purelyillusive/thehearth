@@ -1,11 +1,11 @@
 {
-  "objective": "IMPLEMENT SECURITY FIXES: Fix all CRITICAL and HIGH severity vulnerabilities identified in SECURITY_AUDIT.md. Priority order: 1) CRITICAL-01: Add DOMPurify sanitization for XSS prevention, 2) CRITICAL-02: Add input validation for all socket events, 3) CRITICAL-03: Add per-IP connection limits and memory cleanup, 4) HIGH-01 through HIGH-05: Rate limiting, CORS validation, CSP headers, input length checks, WebSocket origin validation. Test that the server still runs after changes. Commit each fix separately.",
+  "objective": "Build a CLI client (cli.js) for hearth that connects to the same socket.io backend as the web app. It should: 1) Connect to thehearth.dev socket.io server 2) Use cached username from ~/.hearth-cli.json 3) Display chat messages with colors and timestamps 4) Support sending messages 5) Show @mentions and replies 6) Support /w whisper, /users, /help, /quit commands 7) Work synced with web users in the same chat",
   "project_type": "node",
   "build_cmd": "npm run build",
   "test_cmd": "npm test",
   "lint_cmd": "npm run lint",
   "max_stuck_attempts": 3,
-  "iteration": 5,
+  "iteration": 14,
   "created_at": "2026-01-22T15:15:23.173623",
-  "updated_at": "2026-01-22T16:00:59.949513"
+  "updated_at": "2026-01-22T22:37:04.411678"
 }

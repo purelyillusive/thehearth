@@ -78,3 +78,123 @@
 [2026-01-22 16:00:59] [INFO] Using Droid CLI: C:\Users\Dan\bin\droid.EXE
 [2026-01-22 16:00:59] [INFO] Using custom model: custom:claude-sonnet-4-5-20250929
 [2026-01-22 16:00:59] [INFO] Running: droid exec --skip-permissions-unsafe -m custom:claude-sonnet-4-5-20250929 -f current_prompt.md
+[2026-01-22 16:04:12] [INFO] Iteration complete. Output saved to C:\Users\Dan\hearth\.agent\iteration_4_output.md
+[2026-01-22 16:04:14] [INFO] 
+============================================================
+[2026-01-22 16:04:14] [INFO]   Ralph Iteration 3 of 5
+[2026-01-22 16:04:14] [INFO] ============================================================
+
+[2026-01-22 16:04:14] [INFO] Starting iteration 5 (backend: droid)
+[2026-01-22 16:04:14] [INFO] Launching Factory Droid exec...
+[2026-01-22 16:04:14] [INFO] Using Droid CLI: C:\Users\Dan\bin\droid.EXE
+[2026-01-22 16:04:14] [INFO] Using custom model: custom:claude-sonnet-4-5-20250929
+[2026-01-22 16:04:14] [INFO] Running: droid exec --skip-permissions-unsafe -m custom:claude-sonnet-4-5-20250929 -f current_prompt.md
+[2026-01-22 22:07:46] [INFO] Initializing Ralph in C:\Users\Dan\hearth
+[2026-01-22 22:07:46] [INFO] Detected project type: node
+[2026-01-22 22:07:46] [INFO] Initialization complete!
+[2026-01-22 22:07:46] [INFO]   TODO.md: C:\Users\Dan\hearth\.agent\TODO.md
+[2026-01-22 22:07:46] [INFO]   NOTES.md: C:\Users\Dan\hearth\.agent\NOTES.md
+[2026-01-22 22:07:46] [INFO]   STATUS.md: C:\Users\Dan\hearth\.agent\STATUS.md
+[2026-01-22 22:07:46] [INFO] 
+[2026-01-22 22:07:46] [INFO] Next steps:
+[2026-01-22 22:07:46] [INFO]   1. Review/edit TODO.md with specific tasks
+[2026-01-22 22:07:46] [INFO]   2. Run: python ralph_v2.py sync <project_dir>
+[2026-01-22 22:07:52] [INFO] Starting Ralph loop (max 10 iterations)
+[2026-01-22 22:07:52] [INFO] 
+============================================================
+[2026-01-22 22:07:52] [INFO]   Ralph Iteration 1 of 10
+[2026-01-22 22:07:52] [INFO] ============================================================
+
+[2026-01-22 22:07:52] [INFO] Starting iteration 6 (backend: droid)
+[2026-01-22 22:07:52] [INFO] Launching Factory Droid exec...
+[2026-01-22 22:07:52] [INFO] Using Droid CLI: C:\Users\Dan\bin\droid.EXE
+[2026-01-22 22:07:52] [INFO] Using custom model: custom:GLM-4.7
+[2026-01-22 22:07:52] [INFO] Running: droid exec --skip-permissions-unsafe -m custom:GLM-4.7 -f current_prompt.md
+[2026-01-22 22:13:18] [INFO] Iteration complete. Output saved to C:\Users\Dan\hearth\.agent\iteration_6_output.md
+[2026-01-22 22:13:20] [INFO] 
+============================================================
+[2026-01-22 22:13:20] [INFO]   Ralph Iteration 2 of 10
+[2026-01-22 22:13:20] [INFO] ============================================================
+
+[2026-01-22 22:13:20] [INFO] Starting iteration 7 (backend: droid)
+[2026-01-22 22:13:20] [INFO] Launching Factory Droid exec...
+[2026-01-22 22:13:20] [INFO] Using Droid CLI: C:\Users\Dan\bin\droid.EXE
+[2026-01-22 22:13:20] [INFO] Using custom model: custom:GLM-4.7
+[2026-01-22 22:13:20] [INFO] Running: droid exec --skip-permissions-unsafe -m custom:GLM-4.7 -f current_prompt.md
+[2026-01-22 22:16:41] [INFO] Iteration complete. Output saved to C:\Users\Dan\hearth\.agent\iteration_7_output.md
+[2026-01-22 22:16:43] [INFO] 
+============================================================
+[2026-01-22 22:16:43] [INFO]   Ralph Iteration 3 of 10
+[2026-01-22 22:16:43] [INFO] ============================================================
+
+[2026-01-22 22:16:43] [INFO] Starting iteration 8 (backend: droid)
+[2026-01-22 22:16:43] [INFO] Launching Factory Droid exec...
+[2026-01-22 22:16:43] [INFO] Using Droid CLI: C:\Users\Dan\bin\droid.EXE
+[2026-01-22 22:16:43] [INFO] Using custom model: custom:GLM-4.7
+[2026-01-22 22:16:43] [INFO] Running: droid exec --skip-permissions-unsafe -m custom:GLM-4.7 -f current_prompt.md
+[2026-01-22 22:19:48] [INFO] Iteration complete. Output saved to C:\Users\Dan\hearth\.agent\iteration_8_output.md
+[2026-01-22 22:19:50] [INFO] 
+============================================================
+[2026-01-22 22:19:50] [INFO]   Ralph Iteration 4 of 10
+[2026-01-22 22:19:50] [INFO] ============================================================
+
+[2026-01-22 22:19:50] [INFO] Starting iteration 9 (backend: droid)
+[2026-01-22 22:19:50] [INFO] Launching Factory Droid exec...
+[2026-01-22 22:19:50] [INFO] Using Droid CLI: C:\Users\Dan\bin\droid.EXE
+[2026-01-22 22:19:50] [INFO] Using custom model: custom:GLM-4.7
+[2026-01-22 22:19:50] [INFO] Running: droid exec --skip-permissions-unsafe -m custom:GLM-4.7 -f current_prompt.md
+[2026-01-22 22:24:08] [INFO] Iteration complete. Output saved to C:\Users\Dan\hearth\.agent\iteration_9_output.md
+[2026-01-22 22:24:10] [INFO] 
+============================================================
+[2026-01-22 22:24:10] [INFO]   Ralph Iteration 5 of 10
+[2026-01-22 22:24:10] [INFO] ============================================================
+
+[2026-01-22 22:24:10] [INFO] Starting iteration 10 (backend: droid)
+[2026-01-22 22:24:10] [INFO] Launching Factory Droid exec...
+[2026-01-22 22:24:10] [INFO] Using Droid CLI: C:\Users\Dan\bin\droid.EXE
+[2026-01-22 22:24:10] [INFO] Using custom model: custom:GLM-4.7
+[2026-01-22 22:24:10] [INFO] Running: droid exec --skip-permissions-unsafe -m custom:GLM-4.7 -f current_prompt.md
+[2026-01-22 22:25:52] [INFO] Iteration complete. Output saved to C:\Users\Dan\hearth\.agent\iteration_10_output.md
+[2026-01-22 22:25:54] [INFO] 
+============================================================
+[2026-01-22 22:25:54] [INFO]   Ralph Iteration 6 of 10
+[2026-01-22 22:25:54] [INFO] ============================================================
+
+[2026-01-22 22:25:54] [INFO] Starting iteration 11 (backend: droid)
+[2026-01-22 22:25:54] [INFO] Launching Factory Droid exec...
+[2026-01-22 22:25:54] [INFO] Using Droid CLI: C:\Users\Dan\bin\droid.EXE
+[2026-01-22 22:25:54] [INFO] Using custom model: custom:GLM-4.7
+[2026-01-22 22:25:54] [INFO] Running: droid exec --skip-permissions-unsafe -m custom:GLM-4.7 -f current_prompt.md
+[2026-01-22 22:29:19] [INFO] Iteration complete. Output saved to C:\Users\Dan\hearth\.agent\iteration_11_output.md
+[2026-01-22 22:29:21] [INFO] 
+============================================================
+[2026-01-22 22:29:21] [INFO]   Ralph Iteration 7 of 10
+[2026-01-22 22:29:21] [INFO] ============================================================
+
+[2026-01-22 22:29:21] [INFO] Starting iteration 12 (backend: droid)
+[2026-01-22 22:29:21] [INFO] Launching Factory Droid exec...
+[2026-01-22 22:29:21] [INFO] Using Droid CLI: C:\Users\Dan\bin\droid.EXE
+[2026-01-22 22:29:21] [INFO] Using custom model: custom:GLM-4.7
+[2026-01-22 22:29:21] [INFO] Running: droid exec --skip-permissions-unsafe -m custom:GLM-4.7 -f current_prompt.md
+[2026-01-22 22:33:39] [INFO] Iteration complete. Output saved to C:\Users\Dan\hearth\.agent\iteration_12_output.md
+[2026-01-22 22:33:41] [INFO] 
+============================================================
+[2026-01-22 22:33:41] [INFO]   Ralph Iteration 8 of 10
+[2026-01-22 22:33:41] [INFO] ============================================================
+
+[2026-01-22 22:33:41] [INFO] Starting iteration 13 (backend: droid)
+[2026-01-22 22:33:41] [INFO] Launching Factory Droid exec...
+[2026-01-22 22:33:41] [INFO] Using Droid CLI: C:\Users\Dan\bin\droid.EXE
+[2026-01-22 22:33:41] [INFO] Using custom model: custom:GLM-4.7
+[2026-01-22 22:33:41] [INFO] Running: droid exec --skip-permissions-unsafe -m custom:GLM-4.7 -f current_prompt.md
+[2026-01-22 22:37:02] [INFO] Iteration complete. Output saved to C:\Users\Dan\hearth\.agent\iteration_13_output.md
+[2026-01-22 22:37:04] [INFO] 
+============================================================
+[2026-01-22 22:37:04] [INFO]   Ralph Iteration 9 of 10
+[2026-01-22 22:37:04] [INFO] ============================================================
+
+[2026-01-22 22:37:04] [INFO] Starting iteration 14 (backend: droid)
+[2026-01-22 22:37:04] [INFO] Launching Factory Droid exec...
+[2026-01-22 22:37:04] [INFO] Using Droid CLI: C:\Users\Dan\bin\droid.EXE
+[2026-01-22 22:37:04] [INFO] Using custom model: custom:GLM-4.7
+[2026-01-22 22:37:04] [INFO] Running: droid exec --skip-permissions-unsafe -m custom:GLM-4.7 -f current_prompt.md
