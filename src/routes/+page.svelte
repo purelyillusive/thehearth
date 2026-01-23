@@ -3,8 +3,9 @@
 	import PresenceCounter from '$lib/components/PresenceCounter.svelte';
 	import FloatingSnippets from '$lib/components/FloatingSnippets.svelte';
 	import TavernSceneSprite from '$lib/components/TavernSceneSprite.svelte';
-	import AmbientAudio from '$lib/components/AmbientAudio.svelte';
 	import GlobalChat from '$lib/components/GlobalChat.svelte';
+	import LocationPicker from '$lib/components/LocationPicker.svelte';
+	import MediaPlayer from '$lib/components/MediaPlayer.svelte';
 </script>
 
 <div class="hearth">
@@ -15,6 +16,7 @@
 			<h1 class="title">hearth</h1>
 			<p class="tagline">coding together, wherever</p>
 		</div>
+		<MediaPlayer />
 	</section>
 
 	<!-- Divider -->
@@ -28,14 +30,13 @@
 			<div class="panel-content map-content">
 				<PresenceCounter />
 			</div>
+			<LocationPicker />
 		</div>
 		<div class="chat-area">
 			<GlobalChat />
 		</div>
 	</section>
 
-	<!-- Audio control -->
-	<AmbientAudio />
 </div>
 
 <style>
@@ -114,7 +115,6 @@
 	}
 
 	.chat-area {
-		height: 200px;
 		flex-shrink: 0;
 	}
 

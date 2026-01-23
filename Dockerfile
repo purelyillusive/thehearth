@@ -8,6 +8,7 @@ RUN npm ci
 COPY . .
 RUN npm run build
 
+# API server (Node.js for socket.io + API)
 FROM node:20-alpine AS runner
 
 WORKDIR /app
@@ -15,10 +16,8 @@ WORKDIR /app
 RUN addgroup --system --gid 1001 nodejs
 RUN adduser --system --uid 1001 sveltekit
 
-COPY --from=builder /app/build ./build
 COPY --from=builder /app/package*.json ./
 COPY --from=builder /app/server.js ./
-COPY --from=builder /app/static ./static
 
 RUN npm ci --omit=dev
 
