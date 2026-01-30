@@ -444,7 +444,7 @@ io.on('connection', (socket) => {
 	socket.emit('playlistUpdate', currentPlaylist);
 	broadcastUsers();
 
-	// Send welcome message to chat
+	// Send private welcome message (only to the joining user, not broadcast)
 	const welcomeMsg = {
 		id: `system-${Date.now()}-${Math.random()}`,
 		user: 'hearth',
@@ -453,7 +453,7 @@ io.on('connection', (socket) => {
 		timestamp: new Date().toISOString(),
 		isSystem: true
 	};
-	io.emit('chatMessage', welcomeMsg);
+	socket.emit('chatMessage', welcomeMsg);  // Private to this socket only
 
 	// Handle direct coordinates from client (city picker)
 	// Accepts: { lng, lat } or { lng, lat, city }
@@ -665,18 +665,7 @@ io.on('connection', (socket) => {
 		const user = users.get(socket.id);
 		console.log(`${user?.username || 'unknown'} disconnected. Total: ${users.size - 1}`);
 
-		// Send departure message to chat
-		if (user?.username) {
-			const departureMsg = {
-				id: `system-${Date.now()}-${Math.random()}`,
-				user: 'hearth',
-				text: `${user.username} left the fireside`,
-				location: 'Global',
-				timestamp: new Date().toISOString(),
-				isSystem: true
-			};
-			io.emit('chatMessage', departureMsg);
-		}
+		// No goodbye message broadcast - reduces chat spam when agents join/leave frequently
 		
 		// Clean up user data
 		if (user && user.ip) {
