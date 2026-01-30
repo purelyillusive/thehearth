@@ -28,3 +28,6 @@ vite.config.ts.timestamp-*
 .agent/*_REPORT.md
 .agent/*.log
 .agent/*.log.*
+
+# Deployment docs with secrets
+deploy.md
